@@ -9,6 +9,5 @@ PyYAML
 scikit-learn                            
 seaborn                                     
 sklearn                            
-streamlit==1.5.1             
-TA-Lib                
+streamlit==1.5.1                           
 yfinance                                   
