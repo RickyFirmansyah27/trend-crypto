@@ -1,1 +1,1 @@
-echo PORT $PORT web: setup.sh && streamlit run --server.port $PORT main.py
+worker: setup.sh && streamlit run main.py
