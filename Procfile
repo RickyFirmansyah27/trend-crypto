@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run main.py
+web: bundle exec thin start -p $PORT && streamlit run main.py
