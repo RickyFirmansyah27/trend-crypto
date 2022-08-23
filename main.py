@@ -65,7 +65,7 @@ def main():
 if __name__ == '__main__':
     ticker_symbol = st.sidebar.text_input(
     "Please enter the stock symbol", 'BTC-USD')
-    is_training_mode = st.sidebar.checkbox('Training Mode', value=True)
+    is_training_mode = st.sidebar.checkbox('Training Mode', value=False)
     data_periode = st.sidebar.text_input('Periode', '30d')
     data_interval = st.sidebar.radio('Interval', ['1h','30m','15m','1d'])
     ma1 = st.sidebar.text_input('MA 1', 5)
